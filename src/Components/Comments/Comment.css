@@ -1,0 +1,44 @@
+.comment-container
+{
+    display: flex;
+    gap: 10px;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.avtar
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.details
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.details .name
+{
+    font-size:13px;
+    font-weight:500;
+    margin-left: -580px;
+    
+}
+
+.details .date
+{
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 5px;
+    color: #aaaa;
+}
+
+.details.text
+{
+    font-size: 14px;
+}

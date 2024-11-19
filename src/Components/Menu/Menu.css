@@ -1,0 +1,96 @@
+.menu-container
+{
+    background-color: #201c1d;
+    height: 100vh;
+    color: #fff;
+    padding: 22px 12px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+.menu-img
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.menu-img .title-header
+{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.menu-container img
+{
+    width: 25.5px;
+    height: auto;
+}
+
+.title-header
+{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.menu-items .items-video
+{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-items: center;
+    /* padding: 3px; */
+}
+
+.menu-items .items-video:hover
+{
+    background-color: #aaaa;
+    border-radius: 3px;
+    padding:  3px;
+}
+
+.sign-in
+{
+    padding: 0px 8px;
+}
+
+.sign-in p
+{
+    font-size: 12px;
+}
+
+.sign-in button
+{
+    padding: 5px 15px;
+    margin: 8px;
+    color: #00b4d8;
+    border: 1.5px solid #00b4d8;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.line
+{
+    border: 0.25px solid #aaaa;
+    margin-bottom: 10px;
+}
+
+.title-h2
+{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 0 8px;
+    text-transform: uppercase;
+}
